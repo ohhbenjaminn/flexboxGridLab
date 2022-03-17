@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  line-height: 1.6;
+  min-height: 100vh;
+  font-family: Helvetica;
+  display: grid;
+  place-items: center;
+  background-color: #ffe599;
+}
+
+.contact-picture {
+    /* display: flex; */
+    border-radius: 90%;
+    border: 5px solid #2cc447;
+    
+}
+.contact-name{
+  font-size: 2rem;
+  line-height: 1.1;
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+.job-title {
+  font-size: 12px;
+  margin: 0;
+  text-align: left;
+
+}
+
+.contactCard { 
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  width: 80%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding: 28px;
+  font-size: 14px;
+  align-items: center;
+  background-color: white;
+  /* height: 150px; */
+}
+
+.contact-icons-all {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  /* width: 125px;
+  margin: 0 auto; */
+  justify-content: space-around;
+}
+
+.contact-icon-link{
+  color: #ffffff;
+  background-color: #1878c0;
+  background-size: auto;
+  font-size: 40px;
+}
+.left-profile {
+    
+}
+
+.right-profile {
+  margin: 20px;
+  background: #eeeeee;
+
+} 
+
+.body-description {
+  text-align: left;
+  font-size: 11px;
+}
+
