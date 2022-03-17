@@ -14,8 +14,8 @@ body {
 
 .contact-picture {
     /* display: flex; */
-    border-radius: 90%;
-    border: 5px solid #2cc447;
+  border-radius: 90%;
+  border: 5px solid #2cc447;
     
 }
 .contact-name{
